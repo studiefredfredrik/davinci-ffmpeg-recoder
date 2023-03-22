@@ -11,6 +11,5 @@ The latest builds as windows .exe are available on [https://www.gyan.dev/ffmpeg/
 There is a folder in the repo called `put_ffmpeg_exe_and_ffprobe_exe_inside_here`  
 where you need to put the downloaded `ffmpeg.exe` and `ffprobe.exe` files.
 
-## Screenshots  
-![Screenshot1.png](doc/Screenshot1.png)
-![Screenshot2.png](doc/Screenshot2.png)
+## Screenshot
+![Screenshot.png](doc/Screenshot.png)

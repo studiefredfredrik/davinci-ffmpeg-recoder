@@ -15,7 +15,7 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Cozy movie format converter"
+                Text="davinci-ffmpeg-recoder"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
