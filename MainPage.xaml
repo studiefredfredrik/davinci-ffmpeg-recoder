@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DavinciFfmpegRecoder.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="logo.png"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Cozy movie format converter"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Select the input file and i will create a converted copy for you"
+                x:Name="subHeading"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Output format: LibX264, yuv420p, 720p, rf21, AAC vbr"
+                FontSize="14"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="FileDialogButton"
+                Text="Select file"
+                Clicked="FileDialogButtonClicked"
+                HorizontalOptions="Center" />
+
+            <ProgressBar x:Name="mainProgressBar" IsVisible="false"/>
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
