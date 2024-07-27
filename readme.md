@@ -3,7 +3,7 @@ A small app that uses FFMPEG to convert video files of most formats
 to a format compatible with movie editing software DaVinci Resolve  
 
 You select a input file and the app will re-encode a copy to the output format:  
-LibX264, yuv420p, 720p, rf21, AAC vbr
+LibX264, yuv420p, 1080p, rf21, AAC vbr
 
 ## Releases  
 Built releases can be found on the releases page. Msix installer, unsigned (requires developer mode activated in Windows 11)  
