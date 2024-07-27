@@ -93,7 +93,7 @@ public static class MyExtensions
             .WithConstantRateFactor(21)
             .WithAudioCodec(AudioCodec.Aac)
             .WithVariableBitrate(4)
-            .WithVideoFilters(filterOptions => filterOptions.Scale(VideoSize.Hd))
+            .WithVideoFilters(filterOptions => filterOptions.Scale(VideoSize.FullHd))
             .WithFastStart();
     }
 

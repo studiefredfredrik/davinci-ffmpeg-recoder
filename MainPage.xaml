@@ -26,7 +26,7 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Output format: LibX264, yuv420p, 720p, rf21, AAC vbr"
+                Text="Output format: LibX264, yuv420p, 1080p, rf21, AAC vbr"
                 FontSize="14"
                 HorizontalOptions="Center" />
 
